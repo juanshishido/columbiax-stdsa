@@ -75,3 +75,33 @@ Variables can be of different types. There are three main types.
 Statistics are numerical summaries of data. For example, we can calculate
 frequencies on a categorical variable's values. Statistics do not tell the
 whole story, but they are useful and meaningful.
+
+We can display counts (or frequencies) of the observed occurrences for each
+level in categorical variables. With quantitative data, we can count
+occurrences *within intervals*. In either case, the values can be converted to
+percentages or proportions.
+
+Bar plots can be used for visualizing categorical data. Histograms are useful
+for quantitative data. In a histogram, the height of each bar is called the
+"density." Multiplying the density by the width of its corresponding bar
+results in the proportion.
+
+There are lots of other visualization options that will be discussed in a
+future lecture.
+
+## Numerical Data II Simple Visualization and Summaries
+
+With numerical summaries, we are often interested in the "center of variation."
+This is the value around which most of the data is distributed around. There
+are two ways to summarize this: mean and median.
+
+The mean is the numerical average and the median is the midpoint. The mean is
+sensitive to outliers; the median is not. When there are outliers, as is often
+the case with wage data, for example, distributions are skewed. Wage data is
+usually right skewed, meaning that the outliers appear on the right side of
+the distribution&mdash;the highest values. In this case, the mean will always
+be larger than the median.
+
+It is also important to summarize variation. There are two statistics we can
+use for this: variance and standard deviation. The standard deviation is simply
+the square root of the variance.
