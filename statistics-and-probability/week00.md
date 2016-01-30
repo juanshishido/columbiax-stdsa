@@ -105,3 +105,37 @@ be larger than the median.
 It is also important to summarize variation. There are two statistics we can
 use for this: variance and standard deviation. The standard deviation is simply
 the square root of the variance.
+
+Variance measures the averaged squared deviations of all data points and their
+mean.
+
+The standard deviation is a parameter for the normal distribution. If the
+observed data approximately follows the normal distribution, then the standard
+deviation is a natural approximation to the parameter that would determine
+which normal distribution the data follows.
+
+The standard deviation standardizes variation to make random values from
+different variables comparable. For example, we can say that a value is $n$
+standard deviations above the mean while another is $m$ below the mean. Thus,
+even if both of these values come from different distributions with different
+means and standard deviations, we are able to compare them.
+
+Quantiles are also used to quantify variation.
+
+>Quantiles are cutpoints dividing a set of observations into equal sized
+groups. There are one fewer quantiles than the number of groups created.
+
+Quartiles are an often-used set of quantiles. They represent the following
+values: 25%, 50%, and 75%. They split the data into four parts.
+
+Quantiles can be used to describe the shapes of distributions. For example, if
+the left half of the data&mdash;that is, the lower 50%&mdash;is much "shorter"
+than the right half, then this implies that there are several large, extreme
+values. In this example, the lower half is less variable than the upper half.
+These are referred to as skewed, as opposed to symmetric, distributions.
+
+A box plot uses a five number summary: minimum, Q1 (25%), median (50%), Q3
+(75%), and maximum. Typically, the minimum and maximum values exclude outliers.
+This visualization shows the center, the spread, and any extreme values. It
+often makes sense to transform skewed data. One common transformation for wage
+data, which tends to be right skewed, is to take the log.
